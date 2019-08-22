@@ -20,6 +20,13 @@ public class tenth {
         System.out.println(swap); //stringul modificat
 
 
+        String s = "hey";
+
+        System.out.println(new StringBuilder(s).reverse());
+
+        String i = "c";
+
+        System.out.println(new StringBuilder(i).reverse());
 
     }
 }

@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class first {
 
     public static void main(String[] args) {
-        int[] num1 = new int[]{3,5,8,9};
+        int[] num1 = new int[]{3,5};
 
         int sum = IntStream.of(num1).sum();
         System.out.println(sum);
@@ -17,8 +17,8 @@ public class first {
     public static void sum(){
 
         int total =0;
-        int[] num1 = new int[]{3,5,8,9};
 
+        int[] num1 = new int[] {3,4};
         for(int i=0;i<num1.length;i++){
             total = total + num1[i];
         }
